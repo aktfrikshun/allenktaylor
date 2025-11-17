@@ -1,4 +1,3 @@
- Allen K. Taylor — Senior Software Engineer (Rails & Healthcare) body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; color: #2e2e2e; background-color: #fff; } h1, h2, h3 { color: #1a1a1a; } h1 { font-size: 32px; margin-bottom: 5px; } h2 { font-size: 24px; border-bottom: 2px solid #444; padding-bottom: 4px; margin-top: 40px; } h3 { font-size: 18px; margin-top: 20px; margin-bottom: 4px; } p, ul { font-size: 15px; line-height: 1.6; } .job-dates { font-style: italic; font-size: 13px; color: #777; margin-bottom: 8px; } ul { margin-top: 0; padding-left: 20px; } strong, .highlight { font-weight: bold; color: #000000; }
 
 Allen K. Taylor
 ===============
