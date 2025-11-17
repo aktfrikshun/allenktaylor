@@ -1,134 +1,44 @@
-👨‍💻 Allen K. Taylor
+# Allen K. Taylor
+New Bern, NC • aktfrikshun@gmail.com • (984) 222-5975  
+[github.com/aktfrikshun](https://github.com/aktfrikshun) • [linkedin.com/in/allenktaylor](https://linkedin.com/in/allenktaylor)
 
-Senior Software Engineer – Ruby on Rails & Healthcare Platforms
-📍 New Bern, NC
-📧 aktfrikshun@gmail.com
- • 📞 (984) 222-5975
-🔗 GitHub
- • LinkedIn
+---
 
-🧠 Professional Summary
+## PROFESSIONAL SUMMARY
 
-Senior Ruby on Rails full-stack engineer with extensive SaaS and EHR integration experience. Strong backend expertise in SQL tuning, data modeling, and ETL. Proven record in secure, scalable systems across healthcare, government, and education domains. Hands-on with Python/Flask, React/Angular/Stimulus, AWS, and modern DevOps stacks. Passionate about leveraging AI tools like Cursor, ChatGPT, Devin, Copilot for productivity and precision.
+Senior **Ruby on Rails** full stack engineer with extensive experience building SaaS systems and vendor integrations. Strong backend focus (**SQL** tuning, indexing, data modeling, ETL) with a track record delivering secure, scalable products across a variety of business domains. Comfortable across the full stack (**Ruby on Rails** / **Python** Flask + React/Angular/Stimulus/Vue) and cloud (**AWS**, Terraform, Docker). Actively leverage AI tools (Cursor, ChatGPT, Devin, Copilot) to accelerate design, refactoring, tests, and documentation.
 
-🛠️ Technical Skills
+---
 
-Languages & Frameworks
-Ruby on Rails, Python/Flask, JavaScript (React, Angular, Stimulus, Vue, Node.js), PHP, Salesforce Apex
+## TECHNICAL SKILLS
 
-Healthcare Data & Integrations
-FHIR/REST, HL7/Mirth, NextGen, Nextech, Athena, Allscripts, ETL Pipelines
+**Languages & Frameworks:** **Ruby on Rails**, **Python**/Flask, JavaScript (React, Hotwire/Stimulus, Angular, Vue, Node.js), PHP, Salesforce Apex  
+**Healthcare Data & Integrations:** **FHIR**/REST, **HL7**/Mirth, NextGen, Nextech, Athena, Allscripts, ETL pipelines  
+**Databases:** PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle — query tuning & plans  
+**Cloud/DevOps:** **AWS** (EC2, ECS, S3), Fargate, Cloudwatch, Terraform, Docker, GitHub Actions, Site24x7, New Relic, Splunk  
+**Search & Analytics:** OpenSearch/Elasticsearch, QuickSight, Tableau, Brio, Verity, Mixpanel  
+**Practices:** Agile/Scrum, CI/CD, automated testing, accessibility, security & compliance (HIPAA/PHI)
 
-Databases
-PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle
+---
 
-Cloud / DevOps
-AWS (EC2, ECS, S3), Fargate, CloudWatch, Terraform, Docker, GitHub Actions, Site24x7, New Relic, Splunk
+## PROFESSIONAL EXPERIENCE
 
-Search & Analytics
-OpenSearch/Elasticsearch, QuickSight, Tableau, Brio, Verity, Mixpanel
+### Senior Software Engineer – Cloud & Platform Systems  
+*Nov 2020 – Present | Remote, North Carolina*
 
-Practices
-Agile/Scrum, CI/CD, Automated Testing, Accessibility, Security (HIPAA/PHI compliance)
+- Built and maintained Rails features for a high-volume surgical scheduling platform featuring an Angular Web front end with React mobile app; championed Rails best practices and performance improvements.
+- Integrated EHR data (patient demographics, insurance, appointments) with NextGen, Nextech, Athena, Allscripts via FHIR/REST APIs with robust error handling and auditability.
+- Designed an AWS proxy service to intercept requests and scrub PHI prior to persistence, reducing risk and simplifying downstream processing.
+- Upgraded app from Ruby 2.7.5 → 3.0.6; drove CI/CD automation with GitHub Actions. Leveraged AI tools (Cursor, Copilot, Devin, ChatGPT) to accelerate refactors, test generation, and code reviews.
+- Led effort to modernizing Rails apps; migrated monoliths to AWS-based microservices and improved reliability/performance. Lead on the front end port from legacy React components to Hotwire Stimulus
+- Built data scrapers and pipelines (Python → S3 → Dagster orchestration → Snowflake on AWS) feeding analytics; collaborated on secure integrations.
 
-💼 Professional Experience
-Senior Software Engineer – Cloud & Platform Systems
+### Technical Lead – Product & Platform Development, Frikshun  
+*Sep 2018 – Nov 2020 | Remote*
 
-📍 Remote, NC | 🗓️ Nov 2020 – Present
-
-Led feature development for a high-volume surgical scheduling platform (Rails + Angular + React).
-
-Integrated EHR data with major providers via FHIR/REST APIs.
-
-Designed AWS proxy to scrub PHI before persistence.
-
-Upgraded Rails stack (Ruby 2.7.5 → 3.0.6), automated CI/CD with GitHub Actions.
-
-Migrated monoliths to AWS-based microservices.
-
-Built Python → S3 → Dagster → Snowflake analytics pipelines.
-
-Technical Lead – Product & Platform Dev, Frikshun
-
-📍 Remote | 🗓️ Sep 2018 – Nov 2020
-
-Sol Systems: Led Salesforce + Stripe + Arcadia API integration for renewable energy platform.
-
-Alden Scientific: Built AI-based patient concern prediction engine with OpenAI + Rails.
-
-UC Irvine: Architected faculty promotion workflow system (Rails 6 + Postgres + Pundit).
-
-NYPL: Managed ElasticSearch-backed Rails platform for digital asset search/indexing.
-
-GSA: Built sentiment analysis tools (Sprinklr) and internal portals for US House (Vue.js).
-
-Senior Software Engineer – DrugDev
-
-📍 Raleigh, NC | 🗓️ Jun 2017 – Sep 2018
-
-Built containerized Rails apps for clinical trial workflow and compliance.
-
-Maintained Docker + Ansible deployments with Splunk/New Relic monitoring.
-
-Lead Developer – Cisco
-
-📍 Remote | 🗓️ Mar 2015 – Jun 2017
-
-Led e-learning platform for network certification (EdX + Django + Rails).
-
-Managed video delivery, encoding, and Tableau-based reporting.
-
-Sr Software Engineer – PowerSchool
-
-📍 Remote | 🗓️ Jan 2012 – Mar 2015
-
-Developed K-12 Unified Classroom platform (Rails + Angular + PostgreSQL).
-
-Sole developer on Learning Earnings app with gamified Spree micro-currency engine.
-
-Software Engineer – Backend & Integration, Frikshun
-
-📍 Remote | 🗓️ Jul 2009 – Jan 2012
-
-Sony/Ke$ha fan engagement social app (Brandport).
-
-Node.js + SnapLogic for Live Oak Bank + FiServe.
-
-BI dashboards for Nortel (Rails + Smalltalk).
-
-Lead Ruby on Rails Developer – Western Technologies Group
-
-📍 Remote | 🗓️ Jan 2006 – Jul 2009
-
-Built flood and tax certification apps with parcel map overlays using MagGuide integration.
-
-Technical Lead – GSK (GlaxoSmithKline)
-
-📍 Raleigh, NC | 🗓️ Jan 2002 – Jan 2006
-
-Architected R&D platform using C#, Java/JBoss.
-
-Integrated document search and taxonomy with Plumtree Portal + Verity.
-
-Embedded Systems Engineer – Spacelabs Medical B.V.
-
-📍 Seattle, WA | 🗓️ Jan 1998 – Jan 2002
-
-Built bedside monitoring embedded systems in C with X/Motif UIs.
-
-Software Engineer – IBM
-
-📍 USA | 🗓️ Jan 1994 – Jan 1998
-
-Developed network management tools for FAA collaboration.
-
-🏅 Certifications
-
-AWS Certified Cloud Practitioner (2025)
-
-Certified Brio Technology Consulting Partner
-
-🎓 Education
-
-BS, Computer Science
-University of Washington
+- Specific Clients:  
+  **Sol Systems** – Lead on Salesforce Sustainable Choice product, leveraging Stripe and Arcadia API integrations to help customers manage their renewable energy credits.  
+  **Alden Scientific** – Leveraged OpenAI in a suite of Rails apps to predict patient health care concerns based on a database of blood lab results. Created recommendation engine to plan changes in patient care to mitigate those concerns.  
+  **University of California, Irvine** – Lead on development of new Academic Career Management system for the workflow for faculty promotions and merit increases. Application is Rails 6 against a Postgres DB and relies heavily on taskify for workflow management and pundit for fine grain permission management.  
+  **New York Public Library** – Developed new features and performed Rails major version upgrades for NYPL applications for indexing, searching, and maintaining library digital assets. Data was stored in MySQL, PostgreSQL, and Amazon S3. Managed Elastic Search repositories and code pipelines.  
+  **GSA** – For the General Services Administration of the Federal Government, developed Rails applications to collect and analyze public sentiment on government organizations and services. Sprinklr was used to mine sentimen
