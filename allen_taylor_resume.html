@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Allen K. Taylor — Senior Software Engineer (Rails & Healthcare)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 40px;
+      color: #2e2e2e;
+      background-color: #fff;
+    }
+    h1, h2, h3 {
+      color: #1a1a1a;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 24px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 4px;
+      margin-top: 40px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 4px;
+    }
+    p, ul {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .job-dates {
+      font-style: italic;
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 8px;
+    }
+    ul {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+    strong, .highlight {
+      font-weight: bold;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Allen K. Taylor</h1>
+  <p>New Bern, NC • aktfrikshun@gmail.com • (984) 222-5975</p>
+  <p><a href="https://github.com/aktfrikshun">github.com/aktfrikshun</a> • <a href="https://linkedin.com/in/allenktaylor">linkedin.com/in/allenktaylor</a></p>
+
+  <div class="section">
+    <h2>PROFESSIONAL SUMMARY</h2>
+    <p>Senior <span class="highlight">Ruby on Rails</span> full stack engineer with extensive experience building SaaS systems and vendor integrations. Strong backend focus (<span class="highlight">SQL</span> tuning, indexing, data modeling, ETL) with a track record delivering secure, scalable products across a variety of business domains. Comfortable across the full stack (<span class="highlight">Ruby on Rails</span> / <span class="highlight">Python</span> Flask + React/Angular/Stimulus/Vue) and cloud (<span class="highlight">AWS</span>, Terraform, Docker). Actively leverage AI tools (Cursor, ChatGPT, Devin, Copilot) to accelerate design, refactoring, tests, and documentation.</p>
+  </div>
+
+  <div class="section">
+    <h2>TECHNICAL SKILLS</h2>
+    <p><strong>Languages & Frameworks:</strong> <span class="highlight">Ruby on Rails</span>, <span class="highlight">Python</span>/Flask, JavaScript (React, Hotwire/Stimulus, Angular, Vue, Node.js), PHP, Salesforce Apex</p>
+    <p><strong>Healthcare Data & Integrations:</strong> <span class="highlight">FHIR</span>/REST, <span class="highlight">HL7</span>/Mirth, NextGen, Nextech, Athena, Allscripts, ETL pipelines</p>
+    <p><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, DynamoDB, Oracle — query tuning & plans</p>
+    <p><strong>Cloud/DevOps:</strong> <span class="highlight">AWS</span> (EC2, ECS, S3), Fargate, Cloudwatch, Terraform, Docker, GitHub Actions, Site24x7, New Relic, Splunk</p>
+    <p><strong>Search & Analytics:</strong> OpenSearch/Elasticsearch, QuickSight, Tableau, Brio, Verity, Mixpanel</p>
+    <p><strong>Practices:</strong> Agile/Scrum, CI/CD, automated testing, accessibility, security & compliance (HIPAA/PHI)</p>
+  </div>
+
+  <div class="section">
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+    <h3>Senior Software Engineer – Cloud & Platform Systems</h3>
+<p class="job-dates">Nov 2020 – Present | Remote, North Carolina</p>
+<ul>
+  <li>Built and maintained Rails features for a high-volume surgical scheduling platform featuring an
+Angular Web front end with React mobile app; championed Rails best practices and performance
+improvements.</li>
+
+<li>Integrated EHR data (patient demographics, insurance, appointments) with NextGen, Nextech,
+Athena, Allscripts via FHIR/REST APIs with robust error handling and auditability.</li>
+
+<li>Designed an AWS proxy service to intercept requests and scrub PHI prior to persistence,
+reducing risk and simplifying downstream processing.</li>
+
+<li>Upgraded app from Ruby 2.7.5 → 3.0.6; drove CI/CD automation with GitHub Actions.
+Leveraged AI tools (Cursor, Copilot, Devin, ChatGPT) to accelerate refactors, test generation,
+and code reviews.</li>
+
+<li>Led effort to modernizing Rails apps; migrated
+monoliths to AWS-based microservices and improved reliability/performance. Lead on the front
+end port from legacy React components to Hotwire Stimulus</li>
+
+<li>Built data scrapers and pipelines (Python → S3 → Dagster orchestration → Snowflake on
+AWS) feeding analytics; collaborated on secure integrations.
+</li>
+</ul>
+
+<h3>Technical Lead – Product & Platform Development, Frikshun</h3>
+<p class="job-dates">Sep 2018 – Nov 2020 | Remote</p>
+<ul>
+  <li>Specific Clients:<br/>
+    Sol Systems - Lead on Salesforce Sustainable Choice product, leveraging Stripe and Arcadia API
+    integrations to help customers manage their renewable energy credits.
+    <br/><br/>
+    Alden Scientific - Leveraged OpenAI in a suite of Rails apps to predict patient health care concerns based on a database of blood lab results. Created recommendation engine to plan changes in patient care to mitigate those concerns.
+    <br/><br/>
+    University of California, Irvine - Lead on development of new Academic Career Management system for the workflow for faculty promotions and merit increases. Application is Rails 6 against a Postgres DB and relies heavily on taskify for workflow management and pundit for fine grain permission management.
+    <br/><br/>
+    New York Public Library – Developed new features and performed Rails major version upgrades for NYPL applications for indexing, searching, and maintaining library digital assets. Data was stored in MySQL, PostgreSQL, and Amazon S3. Managed Elastic Search repositories and code pipelines.
+    <br/><br/>
+    GSA --  For the General Services Administration of the Federal Government, developed Rails applications to collect and analyze public sentiment on government organizations and services. Sprinklr was used to mine sentiment from social media sites. Also developed an office equipment and supplies ordering site and platform for the US House of Representatives in Vue.js.
+</ul>
+
+<h3>Senior Software Engineer – DrugDev</h3>
+<p class="job-dates">Jun 2017 – Sep 2018 | Raleigh, NC</p>
+<ul>
+  <li>Developed containerized <span class="highlight">Ruby on Rails</span> applications to support workflow, analytics, and compliance in clinical trials.</li>
+  <li>Maintained Docker + Ansible deployment pipelines; used Splunk and New Relic for monitoring.</li>
+  <li>Worked with PostgreSQL, MySQL, MongoDB, <span class="highlight">Elasticsearch</span>.</li>
+</ul>
+
+<h3>Lead Developer – Cisco</h3>
+<p class="job-dates">Mar 2015 – Jun 2017</p>
+<ul>
+  <li>Led development of e-learning platform for Cisco network certification using EdX (<span class="highlight">Python</span>/Django) and <span class="highlight">Ruby on Rails</span>.</li>
+  <li>Managed video encoding, playback integration (JW Player/Sublime), and metadata reporting in Tableau.</li>
+</ul>
+
+<h3>Sr Software Engineer – PowerSchool</h3>
+<p class="job-dates">Jan 2012 – Mar 2015</p>
+<ul>
+  <li>Built and supported the Unified Classroom K-12 education platform with <span class="highlight">Ruby on Rails</span>, PostgreSQL, and Angular.</li>
+  <li>Sole developer for Learning Earnings app (<span class="highlight">Rails</span> + Spree micro-currency) deployed to <span class="highlight">AWS</span>.</li>
+  <li>Developed mobile companion apps with IONIC and AngularJS.</li>
+</ul>
+
+<h3>Software Engineer – Backend & Integration, FrikShun</h3>
+<p class="job-dates">July 2009 – Jan 2012 | Remote</p>
+<ul>
+  <li>Brandport: Social media app for Sony Media/Ke$ha fanbase engagement.</li>
+  <li>Live Oak Bank: Node.js + SnapLogic integration with FiServe for bank transaction reconciliation.</li>
+  <li>Nortel Networks: BI apps using <span class="highlight">Ruby on Rails</span> and VisualWorks Smalltalk.</li>
+</ul>
+
+<h3>Lead Ruby on Rails developer - Western Technologies Group</h3>
+<p class="job-dates">Jan 2006 – Jul 2009 | Remote</p>
+<ul>
+  <li>Wrote a series of Ruby on Rails applications to allow customers to perform self service flood and tax certifications for property parcels in the state of NJ. Map layer management was achieved by integration with MagGuide open source as well as goverment sources for parcel metadata.</li>
+</ul>
+
+<h3>Technical Lead – GSK Glaxo Smith Kline</h3>
+<p class="job-dates">Jan 2002 – Jan 2006 | Raleigh, NC</p>
+<ul>
+  <li>Architected R&D enhancement platform using agile methods and mixed tech stacks (<span class="highlight">C#</span>, .NET, <span class="highlight">Java</span>/JBoss).</li>
+  <li>Built searchable document collections and Verity-based taxonomies integrated with Plumtree Portal.</li>
+  <li>Led metadata extraction pilots and portal interface infrastructure.</li>
+</ul>
+
+<h3>Embedded Systems Engineer – SPACELABS MEDICAL B.V.</h3>
+<p class="job-dates">Jan 1998 – Jan 2002 | Seattle, WA</p>
+<ul>
+  <li>Developed embedded systems in <span class="highlight">C</span> for hospital bedside monitors with X/Motif UI layer.</li>
+</ul>
+
+<h3>Software Engineer – IBM</h3>
+<p class="job-dates">Jan 1994 – Jan 1998</p>
+<ul>
+  <li>Developed network management features for token ring networks in FAA collaboration project.</li>
+</ul>
+
+<h2>CERTIFICATIONS</h2>
+<ul>
+  <li>AWS Certified Cloud Practitioner (2025)</li>
+  <li>Certified Brio Technology Consulting Partner</li>
+</ul>
+
+<h2>EDUCATION</h2>
+<ul>
+  <li><strong>University of Washington</strong> — BS, Computer Science</li>
+</ul>
+  </div>
+</body>
+</html>
+
